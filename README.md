@@ -22,16 +22,16 @@ Developed by David Frank, Niklas Jahn and Paul Klauber
 DE:
 #doppelt-verkettete-Liste
 
-Getestet auf und designet für Windows, für eine Funktionalität mit anderen Betriebssytemen können wir nicht garantieren.
+Getestet auf und designed für Windows, für eine Funktionalität mit anderen Betriebssytemen können wir nicht garantieren.
 
 Funktionen:
 
-Beim ersten Start des Programms wird der Benutzer aufgefordert die Anzahl an Elementen im Struct anzugeben und zu benennen, die maximale Anzahl liegt bei 15. Es existiert keine maximale Anzahl an Structs, jedoch sind bei einer zu hohen Anzahl Speicherprobleme nicht auszuschließen.
+Beim ersten Start des Programms wird der Benutzer aufgefordert, die Anzahl an Elementen im Struct anzugeben und zu benennen, die maximale Anzahl liegt bei 15. Es existiert keine maximale Anzahl an Structs, jedoch sind bei einer zu hohen Anzahl Speicherprobleme nicht auszuschließen.
 Bei normaler Benutzung sollte dies jedoch nicht eintreten.
-Die Basis des Codes bildet eine doppelt-verkettete-Liste, welche neben den Structs zusätzlich noch einen Zeiger auf das vorherige als auch auf das nachfolgende Listenelement hat und so ermöglicht an jedem beliebigen Punkt neue Elemente einzufügen oder Elemente zu löschen.
+Die Basis des Codes bildet eine doppelt verkettete Liste, welche neben den Strings zusätzlich noch einen Zeiger auf das vorherige als auch auf das nachfolgende Listenelement hat und so ermöglicht, an jedem beliebigen Punkt neue Elemente einzufügen oder Elemente zu löschen.
 Das Erstellen des ersten Elements sorgt für die Erstellung eines fixierten Startpunktes, welcher keine Strings enthält und während des gesamten Programms nicht wieder angerührt wird, um einen Verlust der Verkettung der Liste zu verhindern.
-Zusätzliche Funktionen des Programms sind ausgeben und speichern der Liste, die Suche nach bestimmten Elementen und eine Möglichkeit nach einem vom Nutzer gewählten Kriterium zu sortieren.
-Aufgrund der Knappheit der Zeit für das Projekt, findet die Sortierung nur nach dem ersten Elements des String statt funktioniert jedoch sowohl mit Zahlen als auch mit Buchstaben. Das Maximum an Elementen zum sortieren beläuft sich momentan auf 50, dies kann jedoch jederzeit innerhalb des Codes geändert werden.
-Den selben Umständen geschuldet war es uns nicht mehr möglich das Einlesen der gespeicherten Datei zu realisieren, da wir hier auf einen Fehler stießen den wir nicht mehr reparieren konnten. Entsprechend wurde die Funktion zum Auslesen aus dem Programmcode entfernt.
+Zusätzliche Funktionen des Programms sind Ausgeben und Speichern der Liste, die Suche nach bestimmten Elementen und eine Möglichkeit, nach einem vom Nutzer gewählten Kriterium zu sortieren.
+Aufgrund der Knappheit der Zeit für das Projekt findet die Sortierung nur nach dem ersten Zeichen des Strings statt, funktioniert jedoch sowohl mit Zahlen als auch mit Buchstaben. Das Maximum an Elementen zum Sortieren beläuft sich momentan auf 50, dies kann jedoch jederzeit innerhalb des Codes geändert werden.
+Denselben Umständen geschuldet war es uns nicht mehr möglich, das Einlesen der gespeicherten Datei zu realisieren, da wir hier auf einen Fehler stießen, der innerhalb des zeitlichen Rahmens nicht mehr hätte behoben werden können. Entsprechend wurde die Funktion zum Auslesen aus dem Programmcode entfernt.
 
 Entwickelt von David Frank, Niklas Jahn und Paul Klauber
